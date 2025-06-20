@@ -1,8 +1,6 @@
 <RCC>
   <qresource prefix="/">
-    <file>main.qml</file>
-
-    <!-- embed the style config at the root -->
+    <file>qml/main.qml</file>
     <file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
   </qresource>
 </RCC>

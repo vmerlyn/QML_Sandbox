@@ -1,0 +1,20 @@
+# ignore build artifacts
+*/build/*
+*.o
+*.obj
+
+# ignore Qt Creator user files
+*.user
+*.pro.user*
+.idea/
+
+# ignore QML cache
+qmldir.qmldir
+*.qmlc
+
+# ignore OS files
+.DS_Store
+Thumbs.db
+
+# ignore logs
+*.log
