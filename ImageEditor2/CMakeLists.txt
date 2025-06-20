@@ -27,6 +27,7 @@ qt6_add_resources(QML_RESOURCES qml.qrc)
 add_executable(${PROJECT_NAME}
     main.cpp
     ${QML_RESOURCES}
+    qml/main.qml
 )
 
 target_link_libraries(${PROJECT_NAME}
